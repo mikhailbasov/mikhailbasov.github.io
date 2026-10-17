@@ -1,6 +1,6 @@
 # Mikhail Basov
 
-> Mikhail Basov (Михаил Басов, also written Michael Basov) is a senior DevOps engineer at Sberbank, working across a tribe of about 1,500 microservices. He researches production alerting, contributes fixes to open-source monitoring projects such as Ceph, Rook and Grafana Mimir, and judges student hackathons.
+> Mikhail Basov (Михаил Басов, also written Michael Basov) is a senior DevOps engineer at Sberbank, working across its Risk division of about 1,500 microservices. He researches production alerting, contributes fixes to open-source monitoring projects such as Ceph, Rook and Grafana Mimir, and judges student hackathons.
 
 Canonical profile: https://mikhailbasov.github.io/
 Russian version: https://mikhailbasov.github.io/ru/
@@ -9,7 +9,7 @@ Updated: 2026-10-17
 ## Facts
 
 - Role: Senior DevOps Engineer at Sberbank, Risk Division. DevOps engineer at Sberbank since March 2024, senior since July 2026.
-- Scope: works across the Risk tribe, about 1,500 microservices, and helps its support teams with releases, monitoring and Kubernetes; runs 70+ production services and 6 LLM-based agents on Kubernetes himself.
+- Scope: works across the Risk division, about 1,500 microservices, and helps its support teams with releases, monitoring and Kubernetes; runs 70+ production services and 6 LLM-based agents on Kubernetes himself.
 - Based in: Kazakhstan (UTC+5).
 - Experience: 5+ years across infrastructure, information security and DevOps.
 - Education: studying for a BSc in Software Engineering at Ural Federal University.
@@ -19,11 +19,11 @@ Updated: 2026-10-17
 
 ## Background
 
-Mikhail Basov grew up in a small town in the Urals and moved to Yekaterinburg on his own at 15 to study information security. He started working in IT in 2021 as a systems administrator, then spent two years deploying enterprise security systems (data leak prevention and privileged access management) for large companies. In 2024 he moved to DevOps at Sberbank and became a senior engineer in 2026. He now works across the whole Risk tribe.
+Mikhail Basov grew up in a small town in the Urals and moved to Yekaterinburg on his own at 15 to study information security. He started working in IT in 2021 as a systems administrator, then spent two years deploying enterprise security systems (data leak prevention and privileged access management) for large companies. In 2024 he moved to DevOps at Sberbank and became a senior engineer in 2026. He now works across the whole Risk division.
 
 ## In numbers
 
-- 1,500: microservices in the tribe he works across.
+- 1,500: microservices in the division he works across.
 - 470: releases a month through the release orchestration platform he built.
 - 1,200+: merge requests a day checked by the AI code review service he started.
 - 10: merged upstream contributions, including Ceph, Rook and Grafana Mimir.
@@ -36,9 +36,9 @@ Mikhail Basov grew up in a small town in the Urals and moved to Yekaterinburg on
 
 ## What he does
 
-- Platform work across the tribe: helps support teams in a 1,500-microservice tribe with releases, monitoring and Kubernetes.
+- Platform work across the division: helps support teams in a 1,500-microservice division with releases, monitoring and Kubernetes.
 - Release automation: built and owns the release orchestration platform behind about 470 releases a month; release coordination went from 2-4 hours to under 10 minutes.
-- AI in engineering: started the AI code review service that checks 1,200+ merge requests a day with a median response of about 30 seconds. Works AI-native, with agents behind written plans, independent review and approval gates.
+- AI in engineering: started the AI code review service that checks 1,200+ merge requests a day with a median response of about 30 seconds. Builds with AI agents every day: they work from a written plan, and every change gets an independent review before it merges.
 - Observability and alerting: studies alerting rules that stay silent or fire on the wrong condition and fixes them upstream.
 
 ## Research
@@ -56,7 +56,7 @@ So far his talks have been internal, for engineering teams at Sberbank. Open to 
 
 ## Bio
 
-Mikhail Basov is a senior DevOps engineer at Sberbank, working across a tribe of about 1,500 microservices. He built the release platform behind 470 releases a month and started an AI code review service that handles 1,200+ merge requests a day. He researches alerting rules that stay silent, contributes fixes to open-source projects such as Ceph and Grafana Mimir, and judges student hackathons.
+Mikhail Basov is a senior DevOps engineer at Sberbank, working across its Risk division of about 1,500 microservices. He built the release platform behind 470 releases a month and started an AI code review service that handles 1,200+ merge requests a day. He researches alerting rules that stay silent, contributes fixes to open-source projects such as Ceph and Grafana Mimir, and judges student hackathons.
 
 ## По-русски
 
