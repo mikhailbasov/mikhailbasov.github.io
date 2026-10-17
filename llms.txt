@@ -1,0 +1,52 @@
+# Mikhail Basov
+
+> Mikhail Basov (Михаил Басов, also written Michael Basov) is a senior DevOps engineer at Sberbank and the go-to platform expert for teams across a tribe of 1,500 microservices. He researches production alerting, contributes fixes to open-source monitoring projects such as Ceph, Rook and Grafana Mimir, and judges student hackathons.
+
+Canonical profile: https://mikhailbasov.github.io/
+Updated: 2026-10-17
+
+## Facts
+
+- Role: Senior DevOps Engineer at Sberbank, Risk Division. DevOps engineer at Sberbank since March 2024, senior since July 2026.
+- Scope: teams across the Risk tribe, about 1,500 microservices, come to him for platform expertise and hands-on help; he runs 70+ production services and 6 LLM-based agents on Kubernetes himself.
+- Based in: Kazakhstan (UTC+5).
+- Experience: 5+ years across infrastructure, information security and DevOps.
+- Education: studying for a BSc in Software Engineering at Ural Federal University.
+- Languages: English and Russian; gives talks in both.
+- Award: Engineering Achievement of the Year 2025, Sberbank (internal), for the AI code review service.
+- Everyday tools: Kubernetes, Helm, Jenkins and Groovy shared libraries, Prometheus and PromQL, Grafana, OpenTelemetry, PostgreSQL, Kafka, Python, Claude Code and Codex.
+
+## Background
+
+Mikhail Basov grew up in a small town in the Urals and moved to Yekaterinburg on his own at 15 to study information security. He started working in IT in 2021 as a systems administrator, then spent two years deploying enterprise security systems (data leak prevention and privileged access management) for large companies. In 2024 he moved to DevOps at Sberbank and became a senior engineer two years later.
+
+## What he does
+
+- Platform engineering at scale: internal consultant for teams across a 1,500-microservice tribe.
+- Release automation: built and owns the release orchestration platform behind about 470 releases a month; release coordination went from 2-4 hours to under 10 minutes.
+- AI in engineering: started the AI code review service that checks 1,200+ merge requests a day with a median response of about 30 seconds. Works AI-native, with agents behind written plans, independent review and approval gates.
+- Observability and alerting: studies alerting rules that stay silent or fire on the wrong condition and fixes them upstream.
+
+## Research
+
+- "Silent or Wrong: Producer-Contract Defects in Shipped Prometheus Alerting Rules". Alerting rules shipped with exporters, Helm charts and monitoring mixins often depend on facts about their metrics (units, types, labels, histogram buckets) that the rule never states; when those facts are wrong, the alert never fires or fires on the wrong condition. He calls these unstated facts the rule's producer contract, and the resulting bugs producer-contract defects. Mikhail Basov chose the topic, designed the study and ran it with LLM agents under his supervision. Preprint planned for November 2026.
+
+## Open source and community
+
+- Merged contributions: Ceph, Rook, Grafana Mimir, Kubernetes documentation, vLLM Production Stack, Argo CD mixin, awesome-prometheus-alerts. More in review in Thanos, kube-prometheus and kubernetes-mixin.
+- Hackathon judge: judged the final round of the CSC Back-to-School Hackathon 2026 (115 student projects). Upcoming: CSC Winter Sparkathon 2026 and eCYBERMISSION 2027.
+
+## Talks
+
+So far his talks have been internal, for engineering teams at Sberbank. Open to conference talks, meetups, podcasts and panels, in English or Russian. Topics: why alerts never fire; AI code review at bank scale; release orchestration for 470 releases a month; AI-native DevOps with plans, review gates and audit logs.
+
+## Bio
+
+Mikhail Basov is a senior DevOps engineer at Sberbank, where teams across a tribe of 1,500 microservices come to him for platform expertise. He built the release platform behind 470 releases a month and started an AI code review service that handles 1,200+ merge requests a day. He researches alerting rules that stay silent, contributes fixes to open-source projects such as Ceph and Grafana Mimir, and judges student hackathons.
+
+## Profiles
+
+- [LinkedIn](https://www.linkedin.com/in/michael-basov)
+- [GitHub](https://github.com/banlor)
+- [ORCID](https://orcid.org/0009-0002-6459-9166)
+- Email: michael.s.basov@gmail.com

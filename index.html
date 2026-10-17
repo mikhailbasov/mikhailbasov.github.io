@@ -1,0 +1,419 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mikhail Basov, Senior DevOps Engineer</title>
+<meta name="description" content="Mikhail Basov is a senior DevOps engineer at Sberbank and the go-to platform expert for teams across a tribe of 1,500 microservices. He researches production alerting, contributes to open-source monitoring and judges student hackathons.">
+<meta name="author" content="Mikhail Basov">
+<link rel="canonical" href="https://mikhailbasov.github.io/">
+<meta name="color-scheme" content="light dark">
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Mikhail Basov, Senior DevOps Engineer">
+<meta property="og:description" content="Platform expert for a 1,500-microservice tribe at Sberbank, researcher of production alerting, open-source contributor and hackathon judge.">
+<meta property="og:url" content="https://mikhailbasov.github.io/">
+<meta property="profile:first_name" content="Mikhail">
+<meta property="profile:last_name" content="Basov">
+<meta property="og:image" content="https://mikhailbasov.github.io/mikhail-basov.jpg">
+<meta property="og:image:width" content="640">
+<meta property="og:image:height" content="800">
+<meta property="og:image:alt" content="Mikhail Basov">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="alternate" type="text/markdown" href="llms.txt" title="Profile summary for language models">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geologica:wght@300..800&display=swap">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  "@id": "https://mikhailbasov.github.io/#page",
+  "url": "https://mikhailbasov.github.io/",
+  "name": "Mikhail Basov",
+  "inLanguage": "en",
+  "dateModified": "2026-10-17",
+  "mainEntity": {
+    "@type": "Person",
+    "@id": "https://mikhailbasov.github.io/#person",
+    "name": "Mikhail Basov",
+    "givenName": "Mikhail",
+    "familyName": "Basov",
+    "alternateName": ["Michael Basov", "Михаил Басов"],
+    "url": "https://mikhailbasov.github.io/",
+    "image": "https://mikhailbasov.github.io/mikhail-basov.jpg",
+    "email": "mailto:michael.s.basov@gmail.com",
+    "jobTitle": "Senior DevOps Engineer",
+    "description": "Mikhail Basov is a senior DevOps engineer at Sberbank, where teams across a tribe of 1,500 microservices come to him for platform expertise. He built the release platform behind 470 releases a month and started an AI code review service that handles 1,200+ merge requests a day. He researches alerting rules that stay silent, contributes fixes to open-source projects such as Ceph and Grafana Mimir, and judges student hackathons.",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Sberbank",
+      "sameAs": ["https://en.wikipedia.org/wiki/Sberbank", "https://www.wikidata.org/wiki/Q205012"]
+    },
+    "affiliation": {
+      "@type": "CollegeOrUniversity",
+      "name": "Ural Federal University",
+      "sameAs": ["https://en.wikipedia.org/wiki/Ural_Federal_University", "https://www.wikidata.org/wiki/Q1506552"]
+    },
+    "alumniOf": {"@type": "EducationalOrganization", "name": "Polzunov College"},
+    "homeLocation": {"@type": "Country", "name": "Kazakhstan"},
+    "award": "Engineering Achievement of the Year 2025, Sberbank (internal)",
+    "knowsLanguage": ["en", "ru"],
+    "knowsAbout": ["DevOps", "Platform engineering", "Kubernetes", "Release engineering", "CI/CD", "Observability", "Prometheus", "Alerting rules", "Producer-contract defects in alerting rules", "Site reliability engineering", "AI code review", "LLM agents"],
+    "identifier": {"@type": "PropertyValue", "propertyID": "ORCID", "value": "0009-0002-6459-9166"},
+    "sameAs": [
+      "https://github.com/banlor",
+      "https://www.linkedin.com/in/michael-basov",
+      "https://orcid.org/0009-0002-6459-9166"
+    ]
+  }
+}
+</script>
+<style>
+:root {
+  --paper: #f6f7f9;
+  --ink: #0f1b2a;
+  --muted: #556274;
+  --rule: #d8dee6;
+  --merged: #6639c9;
+  --pending: #8a5a00;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #0e141c;
+    --ink: #e6ebf1;
+    --muted: #9aa6b4;
+    --rule: #253141;
+    --merged: #b79cff;
+    --pending: #e2b04a;
+    color-scheme: dark;
+  }
+}
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: "Geologica", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  font-size: 1.0625rem;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+a {
+  color: inherit;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.22em;
+  text-decoration-color: var(--muted);
+}
+a:hover { text-decoration-color: currentColor; text-decoration-thickness: 2px; }
+:focus-visible { outline: 2px solid var(--merged); outline-offset: 3px; border-radius: 2px; }
+
+.page {
+  max-width: 70rem;
+  margin: 0 auto;
+  padding: clamp(3rem, 9vw, 7rem) max(1rem, 5vw) 3rem;
+}
+
+.identity h1 {
+  margin: 0;
+  font-size: clamp(3rem, 12vw, 8rem);
+  font-weight: 800;
+  line-height: 0.9;
+  letter-spacing: -0.045em;
+}
+.aka { margin: 1.25rem 0 0; font-size: 1.125rem; color: var(--muted); }
+
+.hero {
+  display: grid;
+  gap: 2rem;
+  margin-top: clamp(2.5rem, 6vw, 4rem);
+  padding-top: clamp(2rem, 5vw, 3rem);
+  border-top: 2px solid var(--ink);
+}
+.portrait { display: block; order: -1; width: min(100%, 15rem); }
+.portrait img { display: block; width: 100%; height: auto; border-radius: 10px; }
+@media (min-width: 48rem) {
+  .hero { grid-template-columns: minmax(0, 1fr) clamp(13rem, 24vw, 19rem); gap: clamp(2rem, 5vw, 4rem); align-items: start; }
+  .portrait { order: 0; width: 100%; }
+}
+.pitch {
+  margin: 0;
+  max-width: 21em;
+  font-size: clamp(1.625rem, 3.6vw, 2.75rem);
+  font-weight: 600;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  text-wrap: balance;
+}
+.sub {
+  margin: 1.5rem 0 0;
+  max-width: 36em;
+  color: var(--muted);
+  font-size: clamp(1.0625rem, 1.6vw, 1.25rem);
+}
+.cta { display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.5rem; margin: 2rem 0 0; }
+.button {
+  display: inline-block;
+  padding: 0.8rem 1.4rem;
+  border-radius: 6px;
+  background: var(--ink);
+  color: var(--paper);
+  font-weight: 600;
+  text-decoration: none;
+}
+.button:hover { background: color-mix(in srgb, var(--ink) 80%, var(--paper)); }
+
+main > section { margin-top: clamp(3.5rem, 8vw, 6rem); }
+h2 {
+  margin: 0 0 0.5rem;
+  font-size: 1.625rem;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+}
+h3 { margin: 0 0 0.5rem; font-size: 1.1875rem; font-weight: 600; line-height: 1.3; }
+.note { margin: 0 0 1.5rem; max-width: 40em; color: var(--muted); }
+
+.pillars { display: grid; gap: 2rem 3rem; margin-top: 1.5rem; }
+@media (min-width: 52rem) {
+  .pillars { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+.pillars article { padding-top: 1.25rem; border-top: 1px solid var(--rule); }
+.pillars p { margin: 0; max-width: 34em; }
+.background { margin: 2rem 0 0; max-width: 40em; color: var(--muted); }
+
+.prose { max-width: 40em; margin-top: 1.5rem; padding-top: 1.25rem; border-top: 1px solid var(--rule); }
+.prose p { margin: 0; }
+.prose p + p { margin-top: 0.75rem; }
+
+.paper { max-width: 44em; margin-top: 1.5rem; padding-top: 1.25rem; border-top: 1px solid var(--rule); }
+.paper h3 { font-size: 1.375rem; line-height: 1.3; text-wrap: balance; }
+.paper p { margin: 0; }
+.paper p + p { margin-top: 0.75rem; }
+.paper .status { color: var(--pending); font-weight: 600; }
+
+.community { display: grid; gap: 2.5rem; margin-top: 1.5rem; }
+.community > div { padding-top: 1.25rem; border-top: 1px solid var(--rule); }
+.community > div > p { margin: 0; max-width: 40em; }
+.community .more { margin-top: 1rem; color: var(--muted); }
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 1.75rem;
+  margin: 0.5rem 0 0;
+  padding: 0;
+  list-style: none;
+  font-size: clamp(1.25rem, 2.4vw, 1.75rem);
+  font-weight: 600;
+  line-height: 1.3;
+  letter-spacing: -0.01em;
+}
+
+.topics { margin: 0; padding: 0; list-style: none; border-bottom: 1px solid var(--rule); }
+.topics li { max-width: 46em; padding: 1rem 0; border-top: 1px solid var(--rule); }
+.topics strong { font-weight: 600; }
+
+.bios { display: grid; gap: 1.5rem; }
+@media (min-width: 52rem) {
+  .bios { grid-template-columns: minmax(0, 1fr) minmax(0, 1.7fr); }
+}
+.bio {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin: 0;
+  padding: 1.25rem 1.25rem 1rem;
+  border: 1px solid var(--rule);
+  border-radius: 6px;
+}
+.bio figcaption { color: var(--muted); font-size: 0.9375rem; }
+.bio p { flex: 1; margin: 0; }
+.bio button {
+  align-self: flex-start;
+  padding: 0.45rem 0.9rem;
+  border: 1px solid var(--ink);
+  border-radius: 6px;
+  background: transparent;
+  color: var(--ink);
+  font: inherit;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.bio button:hover { background: var(--ink); color: var(--paper); }
+
+.contact-line {
+  margin: 1rem 0 0;
+  font-size: clamp(1.375rem, 3vw, 2rem);
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  overflow-wrap: anywhere;
+}
+.contact-more { margin: 0.75rem 0 0; color: var(--muted); }
+
+footer {
+  margin-top: clamp(4rem, 10vw, 7rem);
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--rule);
+  color: var(--muted);
+  font-size: 0.875rem;
+}
+footer p { margin: 0; }
+@media print {
+  :root { --paper: #fff; --ink: #000; --muted: #444; --rule: #ccc; --merged: #000; --pending: #000; }
+  .page { padding: 0; }
+  .bio button, .cta .button { display: none; }
+}
+</style>
+</head>
+<body>
+<div class="page">
+  <header class="identity">
+    <h1>Mikhail Basov</h1>
+    <p class="aka"><span lang="ru">Михаил Басов</span>, also written Michael Basov</p>
+  </header>
+
+  <main>
+    <section class="hero" aria-label="Introduction">
+      <div class="hero-text">
+        <p class="pitch">Senior DevOps engineer at Sberbank and the go-to platform expert for teams across a tribe of 1,500 microservices.</p>
+        <p class="sub">I build the systems that ship and watch production: release platforms, Kubernetes, observability and AI in engineering. Outside the day job I research why alerts stay silent, fix open-source monitoring and judge student hackathons.</p>
+        <p class="cta">
+          <a class="button" href="mailto:michael.s.basov@gmail.com">Write to me</a>
+          <a rel="me" href="https://www.linkedin.com/in/michael-basov">LinkedIn</a>
+          <a rel="me" href="https://github.com/banlor">GitHub</a>
+        </p>
+      </div>
+      <picture class="portrait">
+        <source srcset="mikhail-basov.webp" type="image/webp">
+        <img src="mikhail-basov.jpg" width="640" height="800" alt="Mikhail Basov">
+      </picture>
+    </section>
+
+    <section id="expertise" aria-labelledby="expertise-title">
+      <h2 id="expertise-title">What I do</h2>
+      <div class="pillars">
+        <article>
+          <h3>Platform engineering at scale</h3>
+          <p>Teams across Sberbank's Risk tribe, about 1,500 microservices, come to me for expertise and hands-on help, so in practice I work as an internal consultant. I also run 70+ production services and 6 LLM-based agents on Kubernetes myself.</p>
+        </article>
+        <article>
+          <h3>Release automation</h3>
+          <p>I built and own the release orchestration platform behind about 470 releases a month. Coordinating a release used to take 2–4 hours. Now it takes under 10 minutes.</p>
+        </article>
+        <article>
+          <h3>AI in engineering</h3>
+          <p>I started the AI code review service that checks 1,200+ merge requests a day, with a median response of about 30 seconds. It received Sberbank's internal Engineering Achievement of the Year award for 2025. My own delivery is AI-native: agents work from written plans, behind independent review and approval gates.</p>
+        </article>
+        <article>
+          <h3>Observability and alerting</h3>
+          <p>I study alerting rules that stay silent or fire on the wrong condition, and fix them where they ship. My fixes are merged into Ceph, Rook and Grafana Mimir.</p>
+        </article>
+      </div>
+      <p class="background">Everyday tools: Kubernetes, Helm, Jenkins and Groovy shared libraries, Prometheus and PromQL, Grafana, OpenTelemetry, PostgreSQL, Kafka, Python, Claude Code and Codex.</p>
+    </section>
+
+    <section id="story" aria-labelledby="story-title">
+      <h2 id="story-title">How I got here</h2>
+      <div class="prose">
+        <p>I grew up in a small town in the Urals and moved to Yekaterinburg on my own at 15 to study information security. I started working in IT in 2021 as a systems administrator, then spent two years deploying enterprise security systems for large companies: data leak prevention and privileged access management.</p>
+        <p>In 2024 I moved to DevOps at Sberbank. Two years later I was a senior engineer that teams across the tribe come to for help. The security background still shapes how I build platforms. Alongside work, I'm studying for a BSc in Software Engineering at Ural Federal University.</p>
+      </div>
+    </section>
+
+    <section id="research" aria-labelledby="research-title">
+      <h2 id="research-title">Research</h2>
+      <div class="paper">
+        <h3>Silent or Wrong: Producer-Contract Defects in Shipped Prometheus Alerting Rules</h3>
+        <p>Alerting rules ship with exporters, Helm charts and monitoring mixins to people who did not write them. Many quietly depend on facts about their metrics, such as units, types, labels and histogram buckets, that the rule never states. When those facts are wrong, the alert never fires or fires on the wrong condition. I call these unstated facts the rule's producer contract, and the bugs they cause producer-contract defects. The study examines how often this happens in widely used open-source rules, where it comes from and whether current tools catch it.</p>
+        <p>I chose the topic, designed the study and ran it with LLM agents under my supervision.</p>
+        <p class="status">Preprint coming in November 2026</p>
+      </div>
+    </section>
+
+    <section id="community" aria-labelledby="community-title">
+      <h2 id="community-title">Open source and community</h2>
+      <div class="community">
+        <div>
+          <h3>Merged contributions</h3>
+          <ul class="projects">
+            <li>Ceph</li>
+            <li>Rook</li>
+            <li>Grafana Mimir</li>
+            <li>Kubernetes documentation</li>
+            <li>vLLM Production Stack</li>
+            <li>Argo CD mixin</li>
+            <li>awesome-prometheus-alerts</li>
+          </ul>
+          <p class="more">More contributions are in review in Thanos, kube-prometheus and kubernetes-mixin.</p>
+        </div>
+        <div>
+          <h3>Hackathon judge</h3>
+          <p>Judged the final round of the CSC Back-to-School Hackathon 2026, which drew 115 student projects. Coming up: judging the CSC Winter Sparkathon 2026 and eCYBERMISSION 2027.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="talks" aria-labelledby="talks-title">
+      <h2 id="talks-title">Talks</h2>
+      <p class="note">So far my talks have been internal, for engineering teams at Sberbank. I'm open to conference talks, meetups, podcasts and panels, in English or Russian. Topics I can speak on:</p>
+      <ul class="topics">
+        <li><strong>Why your alerts never fire.</strong> How shipped alerting rules break on facts about metrics they never state, and how to catch it.</li>
+        <li><strong>AI code review at bank scale.</strong> Running an LLM reviewer on 1,200+ merge requests a day in a regulated environment.</li>
+        <li><strong>From hours to minutes.</strong> Building release orchestration for 470 releases a month.</li>
+        <li><strong>AI-native DevOps.</strong> Letting agents do real engineering work with plans, review gates and audit logs.</li>
+      </ul>
+    </section>
+
+    <section id="bio" aria-labelledby="bio-title">
+      <h2 id="bio-title">Bio for organizers</h2>
+      <p class="note">Use either version on event pages and in announcements.</p>
+      <div class="bios">
+        <figure class="bio">
+          <figcaption>Short</figcaption>
+          <p id="bio-short">Mikhail Basov is a senior DevOps engineer at Sberbank and a researcher of production alerting.</p>
+          <button type="button" data-copy="bio-short">Copy bio</button>
+        </figure>
+        <figure class="bio">
+          <figcaption>Full</figcaption>
+          <p id="bio-full">Mikhail Basov is a senior DevOps engineer at Sberbank, where teams across a tribe of 1,500 microservices come to him for platform expertise. He built the release platform behind 470 releases a month and started an AI code review service that handles 1,200+ merge requests a day. He researches alerting rules that stay silent, contributes fixes to open-source projects such as Ceph and Grafana Mimir, and judges student hackathons.</p>
+          <button type="button" data-copy="bio-full">Copy bio</button>
+        </figure>
+      </div>
+    </section>
+
+    <section id="contact" aria-labelledby="contact-title">
+      <h2 id="contact-title">Contact</h2>
+      <p class="contact-line"><a href="mailto:michael.s.basov@gmail.com">michael.s.basov@gmail.com</a></p>
+      <p class="contact-more">Based in Kazakhstan, UTC+5. I work in English and Russian. Also on <a rel="me" href="https://www.linkedin.com/in/michael-basov">LinkedIn</a>, <a rel="me" href="https://github.com/banlor">GitHub</a> and <a rel="me" href="https://orcid.org/0009-0002-6459-9166">ORCID</a>.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Updated 17 October 2026.</p>
+  </footer>
+</div>
+<script>
+document.querySelectorAll('[data-copy]').forEach(function (button) {
+  button.addEventListener('click', function () {
+    var source = document.getElementById(button.dataset.copy);
+    var reset = function () { setTimeout(function () { button.textContent = 'Copy bio'; }, 2000); };
+    navigator.clipboard.writeText(source.textContent.trim()).then(function () {
+      button.textContent = 'Copied';
+      reset();
+    }, function () {
+      var range = document.createRange();
+      range.selectNodeContents(source);
+      var selection = window.getSelection();
+      selection.removeAllRanges();
+      selection.addRange(range);
+      button.textContent = 'Text selected, copy it';
+      reset();
+    });
+  });
+});
+</script>
+</body>
+</html>
