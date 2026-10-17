@@ -3,6 +3,7 @@
 > Mikhail Basov (Михаил Басов, also written Michael Basov) is a senior DevOps engineer at Sberbank and the go-to platform expert for teams across a tribe of 1,500 microservices. He researches production alerting, contributes fixes to open-source monitoring projects such as Ceph, Rook and Grafana Mimir, and judges student hackathons.
 
 Canonical profile: https://mikhailbasov.github.io/
+Russian version: https://mikhailbasov.github.io/ru/
 Updated: 2026-10-17
 
 ## Facts
@@ -19,6 +20,19 @@ Updated: 2026-10-17
 ## Background
 
 Mikhail Basov grew up in a small town in the Urals and moved to Yekaterinburg on his own at 15 to study information security. He started working in IT in 2021 as a systems administrator, then spent two years deploying enterprise security systems (data leak prevention and privileged access management) for large companies. In 2024 he moved to DevOps at Sberbank and became a senior engineer two years later.
+
+## In numbers
+
+- 1,500: microservices across the tribe whose teams come to him for help.
+- 470: releases a month through the release orchestration platform he built.
+- 1,200+: merge requests a day checked by the AI code review service he started.
+- 10: merged upstream contributions, including Ceph, Rook and Grafana Mimir.
+
+## Now (October 2026)
+
+- Finishing the study on silent alerts; preprint in November 2026.
+- On the jury of the CSC Winter Sparkathon, 30 November to 6 December 2026.
+- More alerting fixes in review in Thanos, kube-prometheus and kubernetes-mixin.
 
 ## What he does
 
@@ -43,6 +57,10 @@ So far his talks have been internal, for engineering teams at Sberbank. Open to 
 ## Bio
 
 Mikhail Basov is a senior DevOps engineer at Sberbank, where teams across a tribe of 1,500 microservices come to him for platform expertise. He built the release platform behind 470 releases a month and started an AI code review service that handles 1,200+ merge requests a day. He researches alerting rules that stay silent, contributes fixes to open-source projects such as Ceph and Grafana Mimir, and judges student hackathons.
+
+## По-русски
+
+Михаил Басов (Mikhail Basov) работает Senior DevOps-инженером в Сбере, где к нему за экспертизой по платформе приходят команды трайба на 1500 микросервисов. Он построил релизную платформу, через которую проходит 470 релизов в месяц, и запустил сервис ИИ-ревью кода, который проверяет больше 1200 мерж-реквестов в день. Исследует правила алертинга, которые молчат (producer-contract defects), вносит исправления в open-source проекты, например Ceph и Grafana Mimir, и судит студенческие хакатоны. Живёт в Казахстане. Русская версия профиля: https://mikhailbasov.github.io/ru/
 
 ## Profiles
 
