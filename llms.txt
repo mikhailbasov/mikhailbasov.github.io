@@ -10,7 +10,6 @@ Updated: 2026-10-17
 
 - Role: Senior DevOps Engineer at Sberbank, Risk Division. DevOps engineer at Sberbank since March 2024, senior since July 2026.
 - Scope: works across the Risk division, about 1,500 microservices, and helps its support teams with releases, monitoring and Kubernetes; runs 70+ production services and 6 LLM-based agents on Kubernetes himself.
-- Based in: Kazakhstan (UTC+5).
 - Experience: 5+ years across infrastructure, information security and DevOps.
 - Education: studying for a BSc in Software Engineering at Ural Federal University.
 - Languages: English and Russian; gives talks in both.
@@ -60,7 +59,7 @@ Mikhail Basov is a senior DevOps engineer at Sberbank, working across its Risk d
 
 ## По-русски
 
-Михаил Басов (Mikhail Basov) работает Senior DevOps-инженером в Сбере, в трайбе на 1500 микросервисов. Он построил релизную платформу, через которую проходит 470 релизов в месяц, и запустил сервис ИИ-ревью кода, который проверяет больше 1200 мерж-реквестов в день. Исследует правила алертинга, которые молчат (producer-contract defects), вносит исправления в open-source проекты, например Ceph и Grafana Mimir, и судит студенческие хакатоны. Живёт в Казахстане. Русская версия профиля: https://mikhailbasov.github.io/ru/
+Михаил Басов (Mikhail Basov) работает Senior DevOps-инженером в Сбере, в трайбе на 1500 микросервисов. Он построил релизную платформу, через которую проходит 470 релизов в месяц, и запустил сервис ИИ-ревью кода, который проверяет больше 1200 мерж-реквестов в день. Исследует правила алертинга, которые молчат (producer-contract defects), вносит исправления в open-source проекты, например Ceph и Grafana Mimir, и судит студенческие хакатоны. Русская версия профиля: https://mikhailbasov.github.io/ru/
 
 ## Profiles
 
