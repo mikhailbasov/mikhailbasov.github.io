@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Mikhail Basov, Senior DevOps Engineer</title>
-<meta name="description" content="Mikhail Basov is a senior DevOps engineer at Sberbank, working across its Risk division of about 1,500 microservices. He researches production alerting, contributes to open-source monitoring projects and judges student hackathons.">
+<meta name="description" content="Mikhail Basov is a Senior DevOps Engineer at Sberbank: 24 Kubernetes clusters, release automation, an AI code reviewer, and alerting fixes in open-source monitoring projects.">
 <meta name="author" content="Mikhail Basov">
 <meta name="google-site-verification" content="wXqjeQaprQdttI6DC9yuihSUztUnCnxNm0q5E77JLOk">
 <meta name="msvalidate.01" content="C907816F792465A0310B69FD2093894A">
@@ -20,7 +20,7 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:locale:alternate" content="ru_RU">
 <meta property="og:title" content="Mikhail Basov, Senior DevOps Engineer">
-<meta property="og:description" content="Senior DevOps engineer at Sberbank, researcher of production alerting, open-source contributor and hackathon judge.">
+<meta property="og:description" content="Senior DevOps Engineer at Sberbank: Kubernetes, release automation, AI code review and alerting fixes in open source.">
 <meta property="og:url" content="https://mikhailbasov.github.io/">
 <meta property="profile:first_name" content="Mikhail">
 <meta property="profile:last_name" content="Basov">
@@ -54,7 +54,7 @@
   "url": "https://mikhailbasov.github.io/",
   "name": "Mikhail Basov",
   "inLanguage": "en",
-  "dateModified": "2026-10-17T12:52:47Z",
+  "dateModified": "2026-11-10T11:10:32Z",
   "mainEntity": {
     "@type": "Person",
     "@id": "https://mikhailbasov.github.io/#person",
@@ -66,7 +66,7 @@
     "image": "https://mikhailbasov.github.io/mikhail-basov.jpg",
     "email": "mailto:michael.s.basov@gmail.com",
     "jobTitle": "Senior DevOps Engineer",
-    "description": "Mikhail Basov is a senior DevOps engineer at Sberbank, working across its Risk division of about 1,500 microservices. He built the release platform behind 470 releases a month and started an AI code review service that handles 1,200+ merge requests a day. He researches alerting rules that stay silent, contributes fixes to open-source projects such as Ceph and Grafana Mimir, and judges student hackathons.",
+    "description": "Mikhail Basov is a Senior DevOps Engineer at Sberbank, where he administers 24 Kubernetes clusters and runs 70+ microservices in production. He built the release platform and the rollout service behind about 150 production releases a week, and an AI code reviewer that handles 1,200+ pull requests a day at peak. He has 17 merged pull requests in open-source projects such as Grafana Mimir, Ceph and Rook, and wrote a study of defects in shipped Prometheus alerting rules.",
     "worksFor": {
       "@type": "Organization",
       "name": "Sberbank",
@@ -79,7 +79,7 @@
     },
     "award": "Engineering Achievement of the Year 2025, Sberbank (internal)",
     "knowsLanguage": ["en", "ru"],
-    "knowsAbout": ["DevOps", "Platform engineering", "Kubernetes", "Release engineering", "CI/CD", "Observability", "Prometheus", "Alerting rules", "Producer-contract defects in alerting rules", "Site reliability engineering", "AI code review", "LLM agents"],
+    "knowsAbout": ["DevOps", "Kubernetes", "CI/CD", "Release automation", "GitOps", "Prometheus", "Alerting rules", "AI code review"],
     "identifier": {"@type": "PropertyValue", "propertyID": "ORCID", "value": "0009-0002-6459-9166"},
     "sameAs": [
       "https://github.com/banlor",
@@ -102,8 +102,8 @@
   <main>
     <section class="hero" aria-label="Introduction">
       <div class="hero-text">
-        <p class="pitch">Senior DevOps engineer at Sberbank. I work across the Risk division, about 1,500 microservices, and help its teams with releases, monitoring and Kubernetes.</p>
-        <p class="sub">I build release platforms and look after Kubernetes, monitoring and AI tooling. Outside the day job I research why alerts stay silent, send fixes to open-source monitoring projects and judge student hackathons.</p>
+        <p class="pitch">Senior DevOps Engineer at Sberbank. I administer 24 Kubernetes clusters and run 70+ microservices in production.</p>
+        <p class="sub">My main work is delivery: CI/CD, release automation and rollouts to Kubernetes. I also fix alerting rules in open-source monitoring projects.</p>
         <p class="cta">
           <a class="button" href="mailto:michael.s.basov@gmail.com">Email me</a>
           <a rel="me" href="https://www.linkedin.com/in/michael-basov">LinkedIn</a>
@@ -117,108 +117,96 @@
     </section>
 
     <ul class="numbers" aria-label="In numbers">
-      <li><strong>1,500</strong><span>microservices in the division I work across</span></li>
-      <li><strong>470</strong><span>releases a month through the platform I built</span></li>
-      <li><strong>1,200+</strong><span>merge requests a day checked by the AI code reviewer I started</span></li>
-      <li><strong>10</strong><span>merged upstream contributions, including Ceph, Rook and Grafana Mimir</span></li>
+      <li><strong>24</strong><span>Kubernetes clusters I administer, from dev to production</span></li>
+      <li><strong>~150</strong><span>releases a week go to production through my rollout service</span></li>
+      <li><strong>1,200+</strong><span>pull requests a day at peak for the AI code reviewer I built</span></li>
+      <li><strong>17</strong><span>merged pull requests in 10 open-source projects</span></li>
     </ul>
 
-    <section id="expertise" aria-labelledby="expertise-title">
-      <h2 id="expertise-title">What I do</h2>
+    <section id="work" aria-labelledby="work-title">
+      <h2 id="work-title">Work at Sberbank</h2>
       <div class="pillars">
         <article>
-          <h3>Platform work across the division</h3>
-          <p>Support teams across the Risk division bring me questions about releases, monitoring and Kubernetes, and I help them sort things out. I also run 70+ production services and 6 LLM-based agents on Kubernetes myself.</p>
+          <h3>Release platform</h3>
+          <p>I built and own the release platform of the Risk division. It assembles a release from Jira tasks, attaches the builds from Nexus and takes the release through quality gates. Coordinating a release took 2–4 hours; now it takes under 10 minutes. About 40 teams use the platform.</p>
         </article>
         <article>
-          <h3>Release automation</h3>
-          <p>I built and own the release orchestration platform behind about 470 releases a month. Coordinating a release used to take 2–4 hours. Now it takes under 10 minutes.</p>
+          <h3>Unattended rollout</h3>
+          <p>My rollout service deploys about 150 releases a week to production, at night and on weekends. 86% of production installs now start without a person. Rollout goes in waves: each wave re-checks the approval, and a failed wave stops the ones after it.</p>
         </article>
         <article>
-          <h3>AI in engineering</h3>
-          <p>I started the AI code review service that checks 1,200+ merge requests a day, with a median response of about 30 seconds. It received Sberbank's internal Engineering Achievement of the Year award for 2025. I also build with AI agents every day: they work from a written plan, and every change gets an independent review before it merges.</p>
+          <h3>Kubernetes and CI/CD</h3>
+          <p>I administer 24 Kubernetes clusters and run 70+ microservices in production under a 99.9% SLO. I moved our services and their CI from OpenShift to Kubernetes. I write their Helm charts, which Argo CD deploys, and Jenkins pipelines on Groovy shared libraries with SAST and SCA scans. I resolve incidents and write RCAs.</p>
         </article>
         <article>
-          <h3>Observability and alerting</h3>
-          <p>I study alerting rules that stay silent or fire on the wrong condition, and fix them where they ship. My fixes are merged into Ceph, Rook and Grafana Mimir.</p>
+          <h3>AI code reviewer</h3>
+          <p>I proposed and shipped an AI reviewer for pull requests in Bitbucket. At peak it reviews 1,200+ pull requests a day, with a median response of about 30 seconds. It started as a Jenkins job; when the load grew, I rewrote it as a Python service on Kubernetes. It won Sberbank's internal Engineering Achievement of the Year award for 2025: <a href="https://mikhail-basov-docs.s3.eu-central-1.amazonaws.com/index.html?lang=en">letter of appreciation</a>.</p>
         </article>
       </div>
-      <p class="background">Everyday tools: Kubernetes, Helm, Jenkins and Groovy shared libraries, Prometheus and PromQL, Grafana, OpenTelemetry, PostgreSQL, Kafka, Python, Claude Code and Codex.</p>
+      <dl class="stack">
+        <div><dt>CI/CD and releases</dt><dd>Jenkins (Groovy shared libraries), Argo CD (GitOps), Helm, Nexus, Jira, Git, SAST/SCA</dd></div>
+        <div><dt>Containers</dt><dd>Kubernetes, OpenShift, Docker, Istio (routing, mTLS rules)</dd></div>
+        <div><dt>Monitoring and logs</dt><dd>Prometheus, Grafana, ELK, Dynatrace</dd></div>
+        <div><dt>Languages and systems</dt><dd>Python, Groovy, Bash, Linux, PostgreSQL, Redis, Kafka</dd></div>
+        <div><dt>Cloud and IaC</dt><dd>AWS, Terraform, Ansible</dd></div>
+        <div><dt>AI and LLM</dt><dd>AI code review and LLM agents in production, MCP, RAG (pgvector), vLLM Production Stack (open source)</dd></div>
+      </dl>
     </section>
 
-    <section id="story" aria-labelledby="story-title">
-      <h2 id="story-title">How I got here</h2>
-      <div class="prose">
-        <p>I grew up in a small town in the Urals and moved to Yekaterinburg on my own at 15 to study information security. I started working in IT in 2021 as a systems administrator, then spent two years deploying enterprise security systems for large companies: data leak prevention and privileged access management.</p>
-        <p>In 2024 I moved to DevOps at Sberbank, and in 2026 I became a senior engineer. Today I work across the whole Risk division. The security background still shapes how I build platforms. Alongside work, I'm studying for a BSc in Software Engineering at Ural Federal University.</p>
-      </div>
+    <section id="open-source" aria-labelledby="open-source-title">
+      <h2 id="open-source-title">Open source</h2>
+      <p class="note">17 merged pull requests in 10 projects. 12 of them fix Prometheus alerting rules that never fired or fired on the wrong condition.</p>
+      <ul class="topics">
+        <li><strong>Grafana Mimir</strong> <span class="prs"><a href="https://github.com/grafana/mimir/pull/16725">#16725</a> <a href="https://github.com/grafana/mimir/pull/16739">#16739</a></span><br>Added alerts on ruler push and query failures; made the autoscaling alert work with both KEDA error metrics.</li>
+        <li><strong>Grafana jsonnet-libs</strong> <span class="prs"><a href="https://github.com/grafana/jsonnet-libs/pull/1709">#1709</a> <a href="https://github.com/grafana/jsonnet-libs/pull/1710">#1710</a> <a href="https://github.com/grafana/jsonnet-libs/pull/1716">#1716</a> <a href="https://github.com/grafana/jsonnet-libs/pull/1717">#1717</a> <a href="https://github.com/grafana/jsonnet-libs/pull/1718">#1718</a></span><br>Fixed alerts in 9 monitoring mixins, among them Istio, Jaeger, Presto and F5 BIG-IP.</li>
+        <li><strong>Ceph and Rook</strong> <span class="prs"><a href="https://github.com/ceph/ceph/pull/72067">#72067</a> <a href="https://github.com/rook/rook/pull/18453">#18453</a> <a href="https://github.com/rook/rook/pull/18476">#18476</a></span><br>Fixed alerts that could never fire because the threshold was in the wrong unit.</li>
+        <li><strong>awesome-prometheus-alerts and argo-cd-mixin</strong> <span class="prs"><a href="https://github.com/samber/awesome-prometheus-alerts/pull/646">#646</a> <a href="https://github.com/adinhodovic/argo-cd-mixin/pull/41">#41</a></span><br>Repaired 9 broken or unreachable rules.</li>
+        <li><strong>vLLM Production Stack</strong> <span class="prs"><a href="https://github.com/vllm-project/production-stack/pull/940">#940</a> <a href="https://github.com/vllm-project/production-stack/pull/943">#943</a></span><br>Added a per-model request latency histogram; fixed double counting of pods across router replicas.</li>
+        <li><strong>VictoriaMetrics</strong> <span class="prs"><a href="https://github.com/VictoriaMetrics/VictoriaMetrics/pull/11591">#11591</a></span><br>Added workload identity authentication to Azure service discovery.</li>
+        <li><strong>Kubernetes documentation</strong> <span class="prs"><a href="https://github.com/kubernetes/website/pull/55710">#55710</a></span><br>Translated the Linux security page into Russian.</li>
+        <li><strong>OpenTelemetry Python contrib</strong> <span class="prs"><a href="https://github.com/open-telemetry/opentelemetry-python-contrib/pull/4539">#4539</a></span><br>Updated the test dependencies of the google-genai instrumentation.</li>
+      </ul>
+      <p class="after">More fixes are in review, among them in Thanos, kube-prometheus and kubernetes-mixin.</p>
     </section>
 
     <section id="research" aria-labelledby="research-title">
       <h2 id="research-title">Research</h2>
       <div class="paper">
         <h3>Silent or Wrong: Producer-Contract Defects in Shipped Prometheus Alerting Rules</h3>
-        <p>Alerting rules ship with exporters, Helm charts and monitoring mixins to people who did not write them. Many quietly depend on facts about their metrics, such as units, types, labels and histogram buckets, that the rule never states. When those facts are wrong, the alert never fires or fires on the wrong condition. I call these unstated facts the rule's producer contract, and the bugs they cause producer-contract defects. The study examines how often this happens in widely used open-source rules, where it comes from and whether current tools catch it.</p>
+        <p>Alerting rules ship with exporters, Helm charts and monitoring mixins to people who did not write them. A rule often depends on facts about its metrics that it never states: units, types, labels, histogram buckets. When such a fact is wrong, the alert never fires or fires on the wrong condition.</p>
+        <p>I audited 1,808 shipped rules from 86 rule sets and confirmed 31 distinct defects. In at least 19 of them the alert cannot fire in the situation it was written for. promtool and Pint in offline mode find none of the 31.</p>
         <p>I chose the topic, designed the study and ran it with LLM agents under my supervision.</p>
-        <p class="status">Preprint coming in November 2026</p>
+        <p class="status">Submitted to arXiv (cs.SE) in November 2026. The link will appear here when the preprint is announced.</p>
       </div>
     </section>
 
-    <section id="community" aria-labelledby="community-title">
-      <h2 id="community-title">Open source and community</h2>
-      <div class="community">
-        <div>
-          <h3>Merged contributions</h3>
-          <ul class="projects">
-            <li>Ceph</li>
-            <li>Rook</li>
-            <li>Grafana Mimir</li>
-            <li>Kubernetes documentation</li>
-            <li>vLLM Production Stack</li>
-            <li>Argo CD mixin</li>
-            <li>awesome-prometheus-alerts</li>
-          </ul>
-        </div>
-        <div>
-          <h3>Hackathon judge</h3>
-          <p>Judged the final round of the CSC Back-to-School Hackathon 2026, which drew 115 student projects. Coming up: judging the CSC Winter Sparkathon 2026 and eCYBERMISSION 2027.</p>
-        </div>
-      </div>
-    </section>
-
-    <section id="now" aria-labelledby="now-title">
-      <h2 id="now-title">Now</h2>
-      <p class="note">What I'm working on in October 2026.</p>
+    <section id="experience" aria-labelledby="experience-title">
+      <h2 id="experience-title">Experience</h2>
       <ul class="topics">
-        <li><strong>The silent alerts study.</strong> Finishing the manuscript. The preprint comes out in November 2026.</li>
-        <li><strong>Hackathon judging.</strong> On the jury of the CSC Winter Sparkathon, 30 November to 6 December 2026.</li>
-        <li><strong>Upstream fixes.</strong> More alerting fixes are in review in Thanos, kube-prometheus and kubernetes-mixin.</li>
+        <li><strong>Sberbank, Risk Division.</strong> Senior DevOps Engineer since July 2026, DevOps Engineer from February 2024.</li>
+        <li><strong>USSC (Ural Security Systems Center).</strong> Systems Engineer, January 2022 – February 2024. Deployed InfoWatch DLP and PAM systems for enterprise clients, including a full DLP rollout on Linux from sizing to handover. Hardened Linux servers, administered PostgreSQL, mentored 3 interns.</li>
+        <li><strong>IT-Service.</strong> System Administrator, May 2021 – January 2022. Supported Windows Server and Active Directory for clients; automated routine jobs in Bash and PowerShell.</li>
+        <li><strong>Education.</strong> Ural Federal University, BSc in Software Engineering, part-time, expected in 2027. Polzunov College, Diploma in Information Security, 2022.</li>
       </ul>
     </section>
 
-    <section id="talks" aria-labelledby="talks-title">
-      <h2 id="talks-title">Talks</h2>
-      <p class="note">So far my talks have been internal, for engineering teams at Sberbank. I'm open to conference talks, meetups, podcasts and panels, in English or Russian. Topics I can speak on:</p>
-      <ul class="topics">
-        <li><strong>Why your alerts never fire.</strong> How shipped alerting rules break on facts about metrics they never state, and how to catch it.</li>
-        <li><strong>AI code review at bank scale.</strong> Running an LLM reviewer on 1,200+ merge requests a day in a regulated environment.</li>
-        <li><strong>From hours to minutes.</strong> Building release orchestration for 470 releases a month.</li>
-        <li><strong>AI-native DevOps.</strong> Letting agents do real engineering work with plans, review gates and audit logs.</li>
-      </ul>
+    <section id="judging" aria-labelledby="judging-title">
+      <h2 id="judging-title">Hackathon judging</h2>
+      <p class="plain">I judged the final round of the CSC Back-to-School Hackathon 2026 and scored all 8 finalist projects. Next is the CSC Winter Sparkathon, 30 November – 6 December 2026.</p>
     </section>
 
     <section id="bio" aria-labelledby="bio-title">
-      <h2 id="bio-title">Bio for organizers</h2>
-      <p class="note">Use either version on event pages and in announcements, together with <a href="mikhail-basov.jpg" download>this headshot</a>.</p>
+      <h2 id="bio-title">Bio and photo</h2>
+      <p class="note">For event pages and announcements, together with <a href="mikhail-basov.jpg" download>this photo</a>.</p>
       <div class="bios">
         <figure class="bio">
           <figcaption>Short</figcaption>
-          <p id="bio-short">Mikhail Basov is a senior DevOps engineer at Sberbank and a researcher of production alerting.</p>
+          <p id="bio-short">Mikhail Basov is a Senior DevOps Engineer at Sberbank. He builds release automation and fixes alerting rules in open-source monitoring projects.</p>
           <button type="button" data-copy="bio-short" data-done="Copied" data-fallback="Text selected, copy it">Copy bio</button>
         </figure>
         <figure class="bio">
           <figcaption>Full</figcaption>
-          <p id="bio-full">Mikhail Basov is a senior DevOps engineer at Sberbank, working across its Risk division of about 1,500 microservices. He built the release platform behind 470 releases a month and started an AI code review service that handles 1,200+ merge requests a day. He researches alerting rules that stay silent, contributes fixes to open-source projects such as Ceph and Grafana Mimir, and judges student hackathons.</p>
+          <p id="bio-full">Mikhail Basov is a Senior DevOps Engineer at Sberbank, where he administers 24 Kubernetes clusters and runs 70+ microservices in production. He built the release platform and the rollout service behind about 150 production releases a week, and an AI code reviewer that handles 1,200+ pull requests a day at peak. He has 17 merged pull requests in open-source projects such as Grafana Mimir, Ceph and Rook, and wrote a study of defects in shipped Prometheus alerting rules.</p>
           <button type="button" data-copy="bio-full" data-done="Copied" data-fallback="Text selected, copy it">Copy bio</button>
         </figure>
       </div>
@@ -226,14 +214,13 @@
 
     <section id="contact" aria-labelledby="contact-title">
       <h2 id="contact-title">Contact</h2>
-      <p class="note">Get in touch about talks and podcasts, hackathon judging, or open-source work on monitoring and alerting.</p>
       <p class="contact-line"><a href="mailto:michael.s.basov@gmail.com">michael.s.basov@gmail.com</a></p>
-      <p class="contact-more">I work in English and Russian. Also on <a rel="me" href="https://www.linkedin.com/in/michael-basov">LinkedIn</a>, <a rel="me" href="https://github.com/banlor">GitHub</a> and <a rel="me" href="https://orcid.org/0009-0002-6459-9166">ORCID</a>.</p>
+      <p class="contact-more">I write and speak English and Russian. Also on <a rel="me" href="https://www.linkedin.com/in/michael-basov">LinkedIn</a>, <a rel="me" href="https://github.com/banlor">GitHub</a> and <a rel="me" href="https://orcid.org/0009-0002-6459-9166">ORCID</a>.</p>
     </section>
   </main>
 
   <footer>
-    <p>Updated 17 October 2026.</p>
+    <p>Updated 10 November 2026.</p>
   </footer>
 </div>
 <script src="/site.js" defer></script>

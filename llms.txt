@@ -1,65 +1,68 @@
 # Mikhail Basov
 
-> Mikhail Basov (Михаил Басов, also written Michael Basov) is a senior DevOps engineer at Sberbank, working across its Risk division of about 1,500 microservices. He researches production alerting, contributes fixes to open-source monitoring projects such as Ceph, Rook and Grafana Mimir, and judges student hackathons.
+> Mikhail Basov (Михаил Басов, also written Michael Basov) is a Senior DevOps Engineer at Sberbank. He administers 24 Kubernetes clusters, builds release automation, and fixes alerting rules in open-source monitoring projects such as Grafana Mimir, Ceph and Rook.
 
 Canonical profile: https://mikhailbasov.github.io/
 Russian version: https://mikhailbasov.github.io/ru/
-Updated: 2026-10-17
+Updated: 2026-11-10
 
 ## Facts
 
-- Role: Senior DevOps Engineer at Sberbank, Risk Division. DevOps engineer at Sberbank since March 2024, senior since July 2026.
-- Scope: works across the Risk division, about 1,500 microservices, and helps its support teams with releases, monitoring and Kubernetes; runs 70+ production services and 6 LLM-based agents on Kubernetes himself.
-- Experience: 5+ years across infrastructure, information security and DevOps.
-- Education: studying for a BSc in Software Engineering at Ural Federal University.
-- Languages: English and Russian; gives talks in both.
-- Award: Engineering Achievement of the Year 2025, Sberbank (internal), for the AI code review service.
-- Everyday tools: Kubernetes, Helm, Jenkins and Groovy shared libraries, Prometheus and PromQL, Grafana, OpenTelemetry, PostgreSQL, Kafka, Python, Claude Code and Codex.
-
-## Background
-
-Mikhail Basov grew up in a small town in the Urals and moved to Yekaterinburg on his own at 15 to study information security. He started working in IT in 2021 as a systems administrator, then spent two years deploying enterprise security systems (data leak prevention and privileged access management) for large companies. In 2024 he moved to DevOps at Sberbank and became a senior engineer in 2026. He now works across the whole Risk division.
+- Role: Senior DevOps Engineer at Sberbank, Risk Division. DevOps Engineer there since February 2024, Senior since July 2026.
+- Scope: administers 24 Kubernetes clusters, from dev to production, and runs 70+ microservices in production under a 99.9% SLO.
+- Experience: 5+ years in production infrastructure. Before Sberbank: Systems Engineer at USSC (Ural Security Systems Center), January 2022 to February 2024, deploying DLP and PAM systems; System Administrator at IT-Service, May 2021 to January 2022.
+- Education: Ural Federal University, BSc in Software Engineering, part-time, expected in 2027. Polzunov College, Diploma in Information Security, 2022.
+- Languages: English and Russian.
+- Award: Engineering Achievement of the Year 2025, Sberbank (internal), for the AI code reviewer. Letter of appreciation: https://mikhail-basov-docs.s3.eu-central-1.amazonaws.com/index.html?lang=en
+- Stack: Jenkins (Groovy shared libraries), Argo CD (GitOps), Helm, Nexus, Jira, Git, SAST/SCA; Kubernetes, OpenShift, Docker, Istio; Prometheus, Grafana, ELK, Dynatrace; Python, Groovy, Bash, Linux, PostgreSQL, Redis, Kafka; AWS, Terraform, Ansible; AI code review and LLM agents in production, MCP, RAG (pgvector).
 
 ## In numbers
 
-- 1,500: microservices in the division he works across.
-- 470: releases a month through the release orchestration platform he built.
-- 1,200+: merge requests a day checked by the AI code review service he started.
-- 10: merged upstream contributions, including Ceph, Rook and Grafana Mimir.
+- 24: Kubernetes clusters he administers, from dev to production.
+- About 150: releases a week that go to production through his rollout service.
+- 1,200+: pull requests a day at peak for the AI code reviewer he built.
+- 17: merged pull requests in 10 open-source projects.
 
-## Now (October 2026)
+## Work at Sberbank
 
-- Finishing the study on silent alerts; preprint in November 2026.
-- On the jury of the CSC Winter Sparkathon, 30 November to 6 December 2026.
-- More alerting fixes in review in Thanos, kube-prometheus and kubernetes-mixin.
+- Release platform: built and owns the release platform of the Risk division. It assembles a release from Jira tasks, attaches the builds from Nexus and takes the release through quality gates. Coordinating a release took 2-4 hours and now takes under 10 minutes. About 40 teams use it.
+- Unattended rollout: his rollout service deploys about 150 releases a week to production, at night and on weekends. 86% of production installs start without a person. Rollout goes in waves: each wave re-checks the approval, and a failed wave stops the ones after it.
+- Kubernetes and CI/CD: moved the team's services and their CI from OpenShift to Kubernetes; writes their Helm charts, which Argo CD deploys, and Jenkins pipelines on Groovy shared libraries with SAST and SCA scans; resolves incidents and writes RCAs.
+- AI code reviewer: proposed and shipped an AI reviewer for pull requests in Bitbucket. At peak it reviews 1,200+ pull requests a day with a median response of about 30 seconds. It started as a Jenkins job and became a Python service on Kubernetes.
 
-## What he does
+## Open source
 
-- Platform work across the division: helps support teams in a 1,500-microservice division with releases, monitoring and Kubernetes.
-- Release automation: built and owns the release orchestration platform behind about 470 releases a month; release coordination went from 2-4 hours to under 10 minutes.
-- AI in engineering: started the AI code review service that checks 1,200+ merge requests a day with a median response of about 30 seconds. Builds with AI agents every day: they work from a written plan, and every change gets an independent review before it merges.
-- Observability and alerting: studies alerting rules that stay silent or fire on the wrong condition and fixes them upstream.
+17 merged pull requests in 10 projects. 12 of them fix Prometheus alerting rules that never fired or fired on the wrong condition.
+
+- Grafana Mimir: https://github.com/grafana/mimir/pull/16725, https://github.com/grafana/mimir/pull/16739
+- Grafana jsonnet-libs (alerts in 9 monitoring mixins): https://github.com/grafana/jsonnet-libs/pull/1709, https://github.com/grafana/jsonnet-libs/pull/1710, https://github.com/grafana/jsonnet-libs/pull/1716, https://github.com/grafana/jsonnet-libs/pull/1717, https://github.com/grafana/jsonnet-libs/pull/1718
+- Ceph: https://github.com/ceph/ceph/pull/72067
+- Rook: https://github.com/rook/rook/pull/18453, https://github.com/rook/rook/pull/18476
+- awesome-prometheus-alerts: https://github.com/samber/awesome-prometheus-alerts/pull/646
+- argo-cd-mixin: https://github.com/adinhodovic/argo-cd-mixin/pull/41
+- vLLM Production Stack: https://github.com/vllm-project/production-stack/pull/940, https://github.com/vllm-project/production-stack/pull/943
+- VictoriaMetrics: https://github.com/VictoriaMetrics/VictoriaMetrics/pull/11591
+- Kubernetes documentation (Russian translation): https://github.com/kubernetes/website/pull/55710
+- OpenTelemetry Python contrib: https://github.com/open-telemetry/opentelemetry-python-contrib/pull/4539
+
+More fixes are in review, among them in Thanos, kube-prometheus and kubernetes-mixin.
 
 ## Research
 
-- "Silent or Wrong: Producer-Contract Defects in Shipped Prometheus Alerting Rules". Alerting rules shipped with exporters, Helm charts and monitoring mixins often depend on facts about their metrics (units, types, labels, histogram buckets) that the rule never states; when those facts are wrong, the alert never fires or fires on the wrong condition. He calls these unstated facts the rule's producer contract, and the resulting bugs producer-contract defects. Mikhail Basov chose the topic, designed the study and ran it with LLM agents under his supervision. Preprint planned for November 2026.
+- "Silent or Wrong: Producer-Contract Defects in Shipped Prometheus Alerting Rules". Alerting rules shipped with exporters, Helm charts and monitoring mixins often depend on facts about their metrics (units, types, labels, histogram buckets) that the rule never states; when such a fact is wrong, the alert never fires or fires on the wrong condition. He audited 1,808 shipped rules from 86 rule sets and confirmed 31 distinct defects. In at least 19 of them the alert cannot fire in the situation it was written for; promtool and Pint in offline mode find none of the 31. Mikhail Basov chose the topic, designed the study and ran it with LLM agents under his supervision. Submitted to arXiv (cs.SE) in November 2026.
 
-## Open source and community
+## Hackathon judging
 
-- Merged contributions: Ceph, Rook, Grafana Mimir, Kubernetes documentation, vLLM Production Stack, Argo CD mixin, awesome-prometheus-alerts. More in review in Thanos, kube-prometheus and kubernetes-mixin.
-- Hackathon judge: judged the final round of the CSC Back-to-School Hackathon 2026 (115 student projects). Upcoming: CSC Winter Sparkathon 2026 and eCYBERMISSION 2027.
-
-## Talks
-
-So far his talks have been internal, for engineering teams at Sberbank. Open to conference talks, meetups, podcasts and panels, in English or Russian. Topics: why alerts never fire; AI code review at bank scale; release orchestration for 470 releases a month; AI-native DevOps with plans, review gates and audit logs.
+- Judged the final round of the CSC Back-to-School Hackathon 2026 and scored all 8 finalist projects.
+- Next: CSC Winter Sparkathon, 30 November to 6 December 2026.
 
 ## Bio
 
-Mikhail Basov is a senior DevOps engineer at Sberbank, working across its Risk division of about 1,500 microservices. He built the release platform behind 470 releases a month and started an AI code review service that handles 1,200+ merge requests a day. He researches alerting rules that stay silent, contributes fixes to open-source projects such as Ceph and Grafana Mimir, and judges student hackathons.
+Mikhail Basov is a Senior DevOps Engineer at Sberbank, where he administers 24 Kubernetes clusters and runs 70+ microservices in production. He built the release platform and the rollout service behind about 150 production releases a week, and an AI code reviewer that handles 1,200+ pull requests a day at peak. He has 17 merged pull requests in open-source projects such as Grafana Mimir, Ceph and Rook, and wrote a study of defects in shipped Prometheus alerting rules.
 
 ## По-русски
 
-Михаил Басов (Mikhail Basov) работает Senior DevOps-инженером в Сбере, в трайбе на 1500 микросервисов. Он построил релизную платформу, через которую проходит 470 релизов в месяц, и запустил сервис ИИ-ревью кода, который проверяет больше 1200 мерж-реквестов в день. Исследует правила алертинга, которые молчат (producer-contract defects), вносит исправления в open-source проекты, например Ceph и Grafana Mimir, и судит студенческие хакатоны. Русская версия профиля: https://mikhailbasov.github.io/ru/
+Михаил Басов (Mikhail Basov) — Senior DevOps-инженер в Сбере: администрирует 24 кластера Kubernetes и сопровождает 70+ микросервисов в проде. Сделал релизную платформу и сервис выкатки, который ставит в прод около 150 релизов в неделю, и AI-ревьюер кода, который в пике разбирает 1200+ пул-реквестов в день. У него 17 принятых PR в open-source проектах, среди них Grafana Mimir, Ceph и Rook, и исследование дефектов в поставляемых правилах алертинга Prometheus. Русская версия профиля: https://mikhailbasov.github.io/ru/
 
 ## Profiles
 
