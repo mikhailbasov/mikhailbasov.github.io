@@ -4,11 +4,11 @@
 
 Canonical profile: https://mikhailbasov.github.io/
 Russian version: https://mikhailbasov.github.io/ru/
-Updated: 2026-11-10
+Updated: 2026-11-11
 
 ## Facts
 
-- Role: Senior DevOps Engineer at Sberbank, Risk Division. DevOps Engineer there since February 2024, Senior since July 2026.
+- Role: Senior DevOps Engineer at Sberbank, Risk Division, since February 2024.
 - Scope: administers 24 Kubernetes clusters, from dev to production, and runs 70+ microservices in production under a 99.9% SLO.
 - Experience: 5+ years in production infrastructure. Before Sberbank: Systems Engineer at USSC (Ural Security Systems Center), January 2022 to February 2024, deploying DLP and PAM systems; System Administrator at IT-Service, May 2021 to January 2022.
 - Education: Ural Federal University, BSc in Software Engineering, part-time, expected in 2027. Polzunov College, Diploma in Information Security, 2022.
